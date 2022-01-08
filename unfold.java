@@ -37,9 +37,10 @@ class unfold {
             c1 = c1.next;
             prev = forw;
         }
+        prev.next = null;
         ListNode half = reverse(dummy.next);
-        c1prev.next = half;
-        //head = half;
+        if(c1!= null )c1.next =half;
+        else c1prev.next =half;
         
     }
 
