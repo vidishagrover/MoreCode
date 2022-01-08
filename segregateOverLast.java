@@ -1,6 +1,6 @@
 import java.util.*;
 
-class swappingOverLast{
+class segregateOverLast{
     public static Scanner scn = new Scanner(System.in);
 
     public static class ListNode {
